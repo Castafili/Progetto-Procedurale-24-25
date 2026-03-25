@@ -22,17 +22,18 @@ The game is designed to be compiled in a Linux environment (tested on Ubuntu).
 
 To compile the project, run the following commands in your terminal:
 
-Bash
+```Bash
 gcc -c main.c -std=c11 -Wall
 gcc -c gamelib.c -std=c11 -Wall
 gcc -o gioco main.o gamelib.o
+```
 
 The -std=c11 and -Wall flags ensure compliance with the C 2011 standard and help remove all warnings.
 
 To start the game, run:
 
-Bash
+```Bash
 ./gioco
-
+```
 ---
 Author: Filippo Castagnola - 376476
