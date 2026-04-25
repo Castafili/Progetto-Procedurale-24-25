@@ -512,7 +512,7 @@ static void genera_random() {
                 break;
             
             case 3:
-                temp->stanza_sopra = nuova_stanza;
+                temp->stanza_sotto = nuova_stanza;
                 break;
         }
         temp = nuova_stanza;
