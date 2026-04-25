@@ -1089,7 +1089,7 @@ void crediti() {
     printf("\nUltimi Vincitori:\n");
     for (int i = 0; i < MAX_VINCITORI; i++) {
         if (strlen(ultimi_vincitori[i]) > 0) {
-            printf("%d) %s\n", i + 1, ultimi_vincitori[1]);
+            printf("%d) %s\n", i + 1, ultimi_vincitori[i]);
         }
         else {
             printf("%d) Nessun vincitore ancora registrato\n", i + 1);
